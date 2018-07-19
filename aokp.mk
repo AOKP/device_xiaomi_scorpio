@@ -1,10 +1,10 @@
 $(call inherit-product, device/xiaomi/scorpio/full_scorpio.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common AOKP stuff.
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_scorpio
+PRODUCT_NAME := aokp_scorpio
 PRODUCT_DEVICE := scorpio
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI Note 2
